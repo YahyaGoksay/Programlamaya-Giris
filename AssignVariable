@@ -1,0 +1,8 @@
+package Answer01;
+
+public class AssignVariable {
+    public static void main(String[] args) {
+        int a=(5);
+        System.out.println("Assigned Variable..:"+a);
+    }
+}
