@@ -1,0 +1,36 @@
+package Answer01;
+
+import java.util.Scanner;
+
+public class BasicOperations {
+    public static void main(String[] args) {
+        Scanner a = new Scanner(System.in);
+        int number1, number2, sum, minus, multiply, modulus;
+        double divide;
+
+
+        System.out.println("Input your first number..:");
+        number1 = a.nextInt();
+
+        System.out.println("Input your second number..:");
+        number2 = a.nextInt();
+
+        sum = number1 + number2;
+        System.out.println("Add two number is..:"+sum);
+
+        minus = number1 - number2;
+        System.out.println("Difference two number is..:"+minus);
+
+        multiply = number1 * number2;
+        System.out.println("Multiply two number is..:"+multiply);
+
+        divide = (double) number1 / number2;
+        System.out.println("Divide two number is..:"+divide);
+
+        modulus = number1 % number2;
+        System.out.println("Modulus two number is..:"+modulus);
+
+
+
+    }
+}
